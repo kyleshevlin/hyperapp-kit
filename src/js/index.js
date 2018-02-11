@@ -1,10 +1,8 @@
 import { app, h } from 'hyperapp'
+import state from './state'
+import actions from './actions'
 import Counter from './components/Counter'
 import Greeting from './components/Greeting'
-
-const state = {}
-
-const actions = {}
 
 const view = () => (
   <div>
