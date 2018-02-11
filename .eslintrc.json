@@ -23,6 +23,7 @@
   ],
   "rules": {
     "no-unused-vars": [2, { "varsIgnorePattern": "h" }],
+    "no-shadow": "off",
     "react/jsx-uses-vars": 2
   }
 }
