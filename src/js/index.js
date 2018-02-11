@@ -1,4 +1,5 @@
 import { app, h } from 'hyperapp'
+import logger from '@hyperapp/logger'
 import state from './state'
 import actions from './actions'
 import Counter from './components/Counter'
@@ -11,4 +12,4 @@ const view = () => (
   </div>
 )
 
-app(state, actions, view, document.getElementById('app'))
+logger()(app)(state, actions, view, document.getElementById('app'))

@@ -44,6 +44,7 @@
     "webpack-dev-server": "^2.11.1"
   },
   "dependencies": {
+    "@hyperapp/logger": "^0.4.1",
     "hyperapp": "^1.1.2",
     "hyperapp-nestable": "^0.2.1"
   }

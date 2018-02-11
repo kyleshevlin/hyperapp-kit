@@ -62,6 +62,10 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
+"@hyperapp/logger@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@hyperapp/logger/-/logger-0.4.1.tgz#5c348b4970a24e058cda918f5d02396e7821e3bc"
+
 abab@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"

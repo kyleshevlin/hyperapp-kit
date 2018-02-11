@@ -1,4 +1,5 @@
 import { h } from 'hyperapp'
+import logger from '@hyperapp/logger'
 import nestable from 'hyperapp-nestable'
 
 const state = {
@@ -18,4 +19,4 @@ const view = (state, actions) => (
   </div>
 )
 
-export default nestable(state, actions, view, 'counter')
+export default logger()(nestable)(state, actions, view, 'counter')
