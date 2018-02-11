@@ -62,7 +62,7 @@ module.exports = env => ({
     new ExtractTextPlugin('style.css'),
     new HtmlWebpackPlugin({
       template: './templates/index.ejs',
-      title: 'Hyperapp Starter Kit'
+      title: 'Hyperapp Kit'
     })
   ]
 })
